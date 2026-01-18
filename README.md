@@ -19,7 +19,7 @@ This project analyzes the Amazon ratings dataset to identify suspicious review p
 
 ## 📊 Dataset
 
-- **Source**: Amazon product reviews dataset (`rec-amazon-ratings.edges`)
+- **Source**: Amazon product reviews dataset (`https://networkrepository.com/rec-amazon-ratings.php`)
 - **Focus Period**: Year 2006
 - **Data Fields**: 
   - User ID
@@ -255,7 +255,6 @@ A time window is flagged as suspicious if it meets ALL three conditions:
 
 ```
 ├── main.ipynb          # Main analysis notebook
-├── rec-amazon-ratings.edges     # Dataset 
 └── README.md                    # This file
 ```
 
@@ -266,7 +265,7 @@ A time window is flagged as suspicious if it meets ALL three conditions:
 pip install networkx igraph python-louvain leidenalg infomap cdlib pandas numpy scipy matplotlib scikit-learn pyreadr
 ```
 
-2. **Prepare dataset**: Place `rec-amazon-ratings.edges` in working directory
+2. **Prepare dataset**: Place `rec-amazon-ratings.edges` in working directory from https://networkrepository.com/rec-amazon-ratings.php
 
 3. **Execute notebook**: Run `main.ipynb` sequentially
 
